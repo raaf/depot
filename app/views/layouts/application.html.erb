@@ -16,7 +16,9 @@
   </div>
   <div id="columns">
     <div id="side">
-      sidebar
+      <div id="cart">
+          <%= render(@cart) %>
+      </div>
     </div>
     <div id="main">
       <%= yield %><!-- <label id="code.depot.e.include"/> -->
